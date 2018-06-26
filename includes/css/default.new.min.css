@@ -623,3 +623,9 @@ body{font-family:'Lucida Grande',Lucida,Verdana,sans-serif;font-style:normal;col
     font-family: 'kabel' !Important;
     font-size: 20px !Important;
 }
+
+.startButton {
+  width: 400px;
+  height: 800px;
+  font-size: 500px;
+}

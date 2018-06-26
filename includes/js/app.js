@@ -98,6 +98,13 @@ var onSwitch = document.getElementById("on");
 on.addEventListener("click", start);
 
 function start() {
+  for(var i=0;i<newButtons.length;i++){
+    newButtons[i].style.display = 'block';
+  };
+  for(var i=0;i<mathSigns.length;i++){
+    mathSigns[i].style.display = 'block';
+  };
+  clear.style.display = 'block';
   var startUp = document.getElementById("number");
   startUp.innerHTML = 0;
   signRepeat = 0;
@@ -105,17 +112,23 @@ function start() {
   memory = 0;
 }
 
+var turnOn = document.createElement('div');
+turnOn.innerHTML='poop';
+turnOn.className = "startButton";
 
 var offSwitch = document.getElementById("off");
 off.addEventListener("click", bye);
 
 function bye() {
-  var ok = document.getElementById("outside");
-  var turnOn = document.getElementById('on');
-  ok.style.background = "none"; 
-//   ok.style.background = 'url("https://media.giphy.com/media/7OWdNvyaMr3BuQ8uMk/giphy.gif") center'
-  ok.innerHTML = "";
-  ok.appendChild(turnOn);
+  for(var i=0;i<newButtons.length;i++){
+    newButtons[i].style.display = 'none';
+  };
+  for(var i=0;i<mathSigns.length;i++){
+    mathSigns[i].style.display = 'none';
+  };
+  clear.style.display = 'none';
+  number.innerHTML = '';
+  parentNumber.style.background = null;
 }
 
 var clearSwitch = document.getElementById("clear");
@@ -810,7 +823,7 @@ function load666(){
   rollEm.className = 'dice';
   var idkWat = document.createElement('div');
   idkWat.className = 'holyButt'
-  rollEm.innerHTML = 'TEST YOUR LUCK AND WIN <span>BRUNO MARS TICKETS</span> BY ROLLING THE DICE:' + '<button id="diceButton">Roll Dice</button>';
+  rollEm.innerHTML = 'TEST YOUR LUCK AND WIN <span id="bmar">BRUNO MARS TICKETS</span> BY ROLLING THE DICE:' + '<button id="diceButton">Roll Dice</button>';
   spriteContainer.appendChild(rollEm);
 var linglul = document.createElement('img');
 linglul.Id = 'madmad';
@@ -824,7 +837,6 @@ function changeGif2() {
         videoWrap.className = 'videoWrapper';
         var video = document.createElement('div');
         // document.getElementById("vid").src = "https://www.youtube.com/watch?v=i7084dPvJjA";
-        video.innerHTML = '<iframe class="ytplayer" id="opa" width="560" height="315" src="https://drive.google.com/file/d/1NohnFSHvZaGApgl8ugoR3AY1300f81EW/view?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
         document.body.appendChild(videoWrap);
         videoWrap.appendChild(video);
         console.log("OOPS SORRY, YOU JUST RICK-ROLLED");
@@ -833,7 +845,7 @@ function changeGif2() {
   }
 
 diceButton.addEventListener('click', function(){
-rollEm.innerHTML = 'TEST YOUR LUCK AND WIN <span>BRUNO MARS TICKETS</span> BY ROLLING THE DICE:' + '<span id="poop">LOADING YOUR ROLL...</span>';
+rollEm.innerHTML = 'TEST YOUR LUCK AND WIN <span id="bmar">BRUNO MARS TICKETS</span> BY ROLLING THE DICE:' + '<span id="poop">LOADING YOUR ROLL...</span>';
 rollEm.appendChild(linglul);
 linglul.style.display = 'block';
 // var rollDaDice = diceImages2[Math.floor(Math.random()*diceImages2.length)];
@@ -859,3 +871,18 @@ setTimeout(changeGif2,3000);
 // '<img style="z-index: 1;bottom: 10px;" src="http://i.imgur.com/wGBi2Sq.gif">']
 
 
+var bmar = document.getElementById('bmar');
+bmar.addEventListener('click', boopeep)
+
+function boopeep(){
+  var sound = new Audio('audio/Bruno.mp3');
+  document.body.innerHTML = null;
+  var videoWrap = document.createElement('div');
+  videoWrap.className = 'videoWrapper';
+  var video = document.createElement('div');
+  document.body.appendChild(videoWrap);
+  videoWrap.appendChild(video);
+  console.log("SORRY SOLD OUT. Gotta watch on youtube");
+  document.body.style.background = 'url(https://media.giphy.com/media/3o6ZtcyMhpwGRVUWyI/giphy.gif)';
+  sound.play();
+}
