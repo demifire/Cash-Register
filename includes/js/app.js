@@ -818,16 +818,18 @@ linglul.src = 'https://images.lingscars.com/images/index/ling-mad-head.png';
 rollEm.appendChild(linglul);
 
 function changeGif2() {
+        var sound = new Audio('audio/rr.mp3');
         document.body.innerHTML = null;
         var videoWrap = document.createElement('div');
         videoWrap.className = 'videoWrapper';
         var video = document.createElement('div');
         // document.getElementById("vid").src = "https://www.youtube.com/watch?v=i7084dPvJjA";
-        video.innerHTML = '<video controls autoplay class="ytplayer2" id="opa"><source src="important/rr.mp4" type="video/mp4"></video>';
+        video.innerHTML = '<iframe class="ytplayer" id="opa" width="560" height="315" src="https://drive.google.com/file/d/1NohnFSHvZaGApgl8ugoR3AY1300f81EW/view?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
         document.body.appendChild(videoWrap);
         videoWrap.appendChild(video);
         console.log("OOPS SORRY, YOU JUST RICK-ROLLED");
         document.body.style.background = 'url("http://i.imgur.com/wGBi2Sq.gif") center';
+        sound.play();
   }
 
 diceButton.addEventListener('click', function(){
