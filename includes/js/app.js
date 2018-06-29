@@ -1653,4 +1653,4 @@ wow.addEventListener('click', function(){console.log('Type "ling" while on the p
   window.addEventListener("keyup", konami); 
 }());
 
-console.log('Current Version');
+console.log('Latest Version');
