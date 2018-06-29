@@ -649,7 +649,7 @@ if(memory.includes('/') && number.innerHTML != 0){
     if(num.match(/[\/+*-]/gm) && parseFloat(memory) !== 0){
         currentNum = parseFloat(memory);
         number.innerHTML = parseFloat(memory)/currentNum;
-        if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()};
+        if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()}else if(number.innerHTML == 8080808){theLostWoods()};
         memory = number.innerHTML;
         signRepeat = 0;
         reload = 0;
@@ -661,7 +661,7 @@ if(memory.includes('/') && number.innerHTML != 0){
     }else{
     var storedNum = parseFloat(memory);
     number.innerHTML = storedNum/currentNum;
-    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()};
+    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()}else if(number.innerHTML == 8080808){theLostWoods()};
     console.log(storedNum/currentNum);
     memory = number.innerHTML;
     reload = 0;
@@ -678,14 +678,14 @@ if(memory.includes('/') && number.innerHTML != 0){
    if(num.match(/[\/+*-]/gm)){
     currentNum = parseFloat(memory);
     number.innerHTML = parseFloat(memory)*currentNum;
-    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()};
+    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()}else if(number.innerHTML == 8080808){theLostWoods()};
     memory = number.innerHTML;
     signRepeat = 0;
     reload = 0;
 }else{
    var storedNum = parseFloat(memory);
    number.innerHTML = (storedNum*currentNum);
-   if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()};
+   if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()}else if(number.innerHTML == 8080808){theLostWoods()};
    console.log(storedNum*currentNum);
    reload = 0;
    signRepeat = 0;
@@ -696,14 +696,14 @@ if(memory.includes('/') && number.innerHTML != 0){
    if(num.match(/[\/+*-]/gm)){
     currentNum = parseFloat(memory);
     number.innerHTML = parseFloat(memory)+currentNum;
-    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()};
+    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()}else if(number.innerHTML == 8080808){theLostWoods()};
     memory = number.innerHTML;
     signRepeat = 0;
     reload = 0;
 }else{
    var storedNum = parseFloat(memory);
    number.innerHTML = parseFloat(storedNum+currentNum);
-   if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()};
+   if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()}else if(number.innerHTML == 8080808){theLostWoods()};
    console.log(storedNum+currentNum);
    reload = 0;
    signRepeat = 0;
@@ -714,14 +714,14 @@ if(memory.includes('/') && number.innerHTML != 0){
    if(num.match(/[\/+*-]/gm)){
     currentNum = parseFloat(memory);
     number.innerHTML = parseFloat(memory)-currentNum;
-    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()};
+    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()}else if(number.innerHTML == 8080808){theLostWoods()};
     memory = number.innerHTML;
     signRepeat = 0;
     reload = 0;
 }else{
    var storedNum = parseFloat(memory);
    number.innerHTML = storedNum-currentNum;
-   if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()};
+   if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()}else if(number.innerHTML == 5555){launchSmash()}else if(number.innerHTML == 1199){launchLing()}else if(number.innerHTML == 8080808){theLostWoods()};
    console.log(storedNum-currentNum);
    reload = 0;
    signRepeat = 0;
@@ -1524,23 +1524,17 @@ function beware18(){
   var intro3 = document.createElement('p');
   intro3.className = "fade";
   setTimeout(function(){
-    intro3.innerHTML = 'Congratulations! You have unlocked the secret: the lost woods';
+    intro3.innerHTML = 'Congratulations! You have unlocked the secret: get calculator to display 8080808';
     document.body.appendChild(intro3);
   }, 16000);
 };
 
-console.log('Simply type "off" on your keyboard while on document.body');
+console.log('Simply click on the moving mouth to turn off some annoying content');
 
 var wow = document.getElementsByClassName('clickedYO')[0];
-wow.addEventListener('click', function(){console.log('Type "ling" while on the page for cool stuff')});
+wow.addEventListener('click', function(){console.log('Get the calculator to equal 1199 for an AWESOME vid XD')});
 
-(function () {
-  var buffer,
-      latchId,
-      onKonami,
-      code = [84,72,69,32,76,79,83,84,32,87,79,79,68,83];
-
-  onKonami = function () {
+function theLostWoods() {
     newDiv.innerHTML = null;
     document.body.innerHTML = null;
     document.body.style.background = null;
@@ -1550,20 +1544,4 @@ wow.addEventListener('click', function(){console.log('Type "ling" while on the p
     document.body.appendChild(intro);
   };
 
-  konami = function (ev) { 
-    buffer = buffer || code.slice();
-    if (buffer[0] === ev.keyCode) {
-      window.clearTimeout(latchId);
-      buffer.splice(0, 1);
-      if (buffer.length === 0) {
-        onKonami();
-      }
-      latchId = window.setTimeout(function () {
-        buffer = code.slice();
-      }, 500);
-    }
-  };
-  window.addEventListener("keyup", konami); 
-}());
-
-console.log('Latest Version');
+console.log('Latest Version1');
