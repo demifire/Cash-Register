@@ -278,6 +278,19 @@ body{font-family:'Lucida Grande',Lucida,Verdana,sans-serif;font-style:normal;col
       animation: sprite .8s steps(5) infinite;
       z-index: 100;
     }
+
+  #spriteContainer2 {
+      position: relative;
+      left: 5%;
+      width: 610px;
+      height: 575px;
+      border-radius: 15px;
+      background-image: url("https://images.lingscars.com/images/index/noddy-background.png");
+      background-size: 3100px 523.33px;
+      animation: sprite .8s steps(5) infinite;
+      z-index: 100;
+      display: none;
+    }
  
     @keyframes sprite {
     0% {
@@ -322,7 +335,7 @@ body{font-family:'Lucida Grande',Lucida,Verdana,sans-serif;font-style:normal;col
     border-radius: 15px;
     background: black url(https://images.lingscars.com/images/index/ling.png);
     background-size: 100%;
-    width: 600px;
+    /* width: 600px; */
     /* background-color:black; */
   }
   
@@ -715,3 +728,32 @@ body{font-family:'Lucida Grande',Lucida,Verdana,sans-serif;font-style:normal;col
   text-align: center;
   display: inline !Important;
 }
+
+/* This means that styling will kick in at 414px and below */
+@media only screen and (max-width:414px){
+  li{
+      background: yellow;
+  }
+}
+/* This means that the styling will kick in at 500px and above */
+@media only screen and (max-width: 700px){
+  li {
+      background: rgb(189, 63, 189);
+  }
+  #page {display: none;}
+  #doodoo {display: none;}
+  .free {display: none;}
+  #logodetail {display: none;}
+  #traffic {display: none;}
+  #header-banner {display: none;}
+  .chat-speech {display: none;}
+  .dice {background-color: white;}
+  /* #spriteContainer2 {display: block;} */
+}
+
+@media only screen and (min-width: 1390px){
+  li {
+      background: greenyellow;
+  }
+}
+

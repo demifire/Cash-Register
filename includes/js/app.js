@@ -1545,3 +1545,31 @@ function theLostWoods() {
   };
 
 console.log('Latest Version1');
+
+function removeVids() {
+  if (maxwidth.matches) { // If media query matches
+
+  } else {
+      newDiv.innerHTML = null;
+      newDiv2.innerHTML = null;
+  }
+};
+
+var maxwidth = window.matchMedia("(min-width: 1390px)");
+removeVids();
+maxwidth.addListener(removeVids);
+
+function removeExtras() {
+  if (midwidth.matches) { // If media query matches
+    document.body.appendChild(outside);
+    outside.style.width = '';
+  } else {
+    spriteContainer.appendChild(outside);
+    spriteContainer.appendChild(rollEm);
+    outside.style.width = '600px';
+  }
+};
+
+var midwidth = window.matchMedia("(max-width: 700px)");
+removeExtras();
+midwidth.addListener(removeExtras);
