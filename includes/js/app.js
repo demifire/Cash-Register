@@ -1334,7 +1334,7 @@ function beware9(){
   var intro3 = document.createElement('p');
   intro3.className = "fade";
   setTimeout(function(){
-    intro3.innerHTML = "YOU SEE A KNIFE NEXT TO HIM.";
+    intro3.innerHTML = "YOU SEE A GUN NEXT TO HIM.";
     document.body.appendChild(intro3);
   }, 9000);
   var alignButton = document.createElement('div');
@@ -1347,7 +1347,7 @@ function beware9(){
   button.addEventListener('click', beware10);
   setTimeout(function(){alignButton.appendChild(button)}, 12000)
   var button2 = document.createElement('button');
-  button2.innerHTML = 'Dive for the knife';
+  button2.innerHTML = 'Dive for the gun';
   button2.className = "fade";
   button2.style.display = 'inline-block !Important';
   button2.style.marginLeft = '20px';
@@ -1504,7 +1504,7 @@ function beware15(){
   var intro = document.createElement('p');
   intro.className = "fade";
   setTimeout(function(){
-    intro.innerHTML = "You dive for the knife but accidentally knock it on the ground.";
+    intro.innerHTML = "You dive for the gun but accidentally knock it on the ground.";
     document.body.appendChild(intro);
   }, 0);
   setTimeout(function(){
