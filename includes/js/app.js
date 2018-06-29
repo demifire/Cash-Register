@@ -649,7 +649,7 @@ if(memory.includes('/') && number.innerHTML != 0){
     if(num.match(/[\/+*-]/gm) && parseFloat(memory) !== 0){
         currentNum = parseFloat(memory);
         number.innerHTML = parseFloat(memory)/currentNum;
-        if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()};
+        if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()};
         memory = number.innerHTML;
         signRepeat = 0;
         reload = 0;
@@ -661,7 +661,7 @@ if(memory.includes('/') && number.innerHTML != 0){
     }else{
     var storedNum = parseFloat(memory);
     number.innerHTML = storedNum/currentNum;
-    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()};
+    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()};
     console.log(storedNum/currentNum);
     memory = number.innerHTML;
     reload = 0;
@@ -678,14 +678,14 @@ if(memory.includes('/') && number.innerHTML != 0){
    if(num.match(/[\/+*-]/gm)){
     currentNum = parseFloat(memory);
     number.innerHTML = parseFloat(memory)*currentNum;
-    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()};
+    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()};
     memory = number.innerHTML;
     signRepeat = 0;
     reload = 0;
 }else{
    var storedNum = parseFloat(memory);
    number.innerHTML = (storedNum*currentNum);
-   if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()};
+   if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()};
    console.log(storedNum*currentNum);
    reload = 0;
    signRepeat = 0;
@@ -696,14 +696,14 @@ if(memory.includes('/') && number.innerHTML != 0){
    if(num.match(/[\/+*-]/gm)){
     currentNum = parseFloat(memory);
     number.innerHTML = parseFloat(memory)+currentNum;
-    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()};
+    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()};
     memory = number.innerHTML;
     signRepeat = 0;
     reload = 0;
 }else{
    var storedNum = parseFloat(memory);
    number.innerHTML = parseFloat(storedNum+currentNum);
-   if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()};
+   if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()};
    console.log(storedNum+currentNum);
    reload = 0;
    signRepeat = 0;
@@ -714,14 +714,14 @@ if(memory.includes('/') && number.innerHTML != 0){
    if(num.match(/[\/+*-]/gm)){
     currentNum = parseFloat(memory);
     number.innerHTML = parseFloat(memory)-currentNum;
-    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()};
+    if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()};
     memory = number.innerHTML;
     signRepeat = 0;
     reload = 0;
 }else{
    var storedNum = parseFloat(memory);
    number.innerHTML = storedNum-currentNum;
-   if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()};
+   if(number.innerHTML == 666){setTimeout(load666, 3000)}else if(number.innerHTML == 543645){theBest()}else if(number.innerHTML == 369){launchZelda()};
    console.log(storedNum-currentNum);
    reload = 0;
    signRepeat = 0;
@@ -794,7 +794,7 @@ function theBest(){
     window.addEventListener("keyup", konami); 
   }());
 
-  (function () {
+  function launchZelda() {
     var buffer,
         latchId,
         onKonami,
@@ -830,7 +830,7 @@ function theBest(){
       }
     };
     window.addEventListener("keyup", konami); 
-  }());
+  };
 
   (function () {
     var buffer,
@@ -1633,7 +1633,7 @@ wow.addEventListener('click', function(){console.log('Type "ling" while on the p
     document.body.style.background = null;
     var intro = document.createElement('p');
     intro.className = "fade";
-    intro.innerHTML = 'Turn off annoying sound and music - type "off" on document.body <br><br> Click on Bruno Mars text - reveals gif and music <br><br> Click on roll dice - reveals gif and music <br><br> Type zelda - reveals video <br><br> Using the arrows type, up up down down left right left right b a - reveals video <br><br> Type smash - reveals video <br><br> Get calculator to display 666 - displays random scary video <br><br> Double click S above A-Z - Play Shia game <br><br> Type "ling" for an awesome video <br><br> Get the calculator to display 543645 - Ultimate Secret';
+    intro.innerHTML = 'Turn off annoying sound and music - type "off" on document.body <br><br> Click on Bruno Mars text - reveals gif and music <br><br> Click on roll dice - reveals gif and music <br><br> Get calculator to display 369 - reveals video <br><br> Using the arrows type, up up down down left right left right b a - reveals video <br><br> Type smash - reveals video <br><br> Get calculator to display 666 - displays random scary video <br><br> Double click S above A-Z - Play Shia game <br><br> Type "ling" for an awesome video <br><br> Get the calculator to display 543645 - Ultimate Secret';
     document.body.appendChild(intro);
   };
 
