@@ -47,7 +47,7 @@ body{font-family:'Lucida Grande',Lucida,Verdana,sans-serif;font-style:normal;col
 #page>table{background-color:#fff;position:relative;z-index:2;table-layout:fixed;float:left;display:table-cell}
 #page>#bottom{bottom:10px;font-size:11px;left:0px;margin:auto;position:absolute;text-align:center;width:994px;margin-bottom:-295px;display:block;background-color:white;padding:0 10px 0 10px;height:285px;line-height:12px}
 #header-banner #logo{margin-left:62px;margin-top:10px;display:block}
-#header-banner #logo-detail{animation:1s swivel infinite;position:absolute;right:-30px;top:5px;z-index:10}
+#header-banner #logodetail{animation:1s swivel infinite;position:absolute;right:-30px;top:5px;z-index:10}
 #header-banner>h1{margin:0 0 2px 58px;font-family:kabel;font-weight:normal;word-spacing:5px;letter-spacing:-2px;max-width:700px;max-height:30px;overflow:hidden;text-align:center}
 #header-banner .title-long{font-size:13px;margin-bottom:5px}#header-banner .title-short{font-size:20px}
 #header-banner>h2{margin:-5px 0 0 50px;font-size:9px;font-style:italic;width:770px}

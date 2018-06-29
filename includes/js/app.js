@@ -929,34 +929,14 @@ newDiv2.style.display = 'none';
 var newDiv2vid = document.getElementById('chinesegirl');
 var freeflash = document.getElementsByClassName('free')[0];
 
-(function () {
-  var buffer,
-      latchId,
-      onKonami,
-      code = [79, 70, 70];
-
-  onKonami = function () {
+function turnOffCrap() {
       freeflash.style.display = 'none';
       newDiv.innerHTML = null;
       newDiv2vid.src = false;
       console.log("Good job. You just turned off some of the annoying content here!");
   };
-
-  konami = function (ev) { 
-    buffer = buffer || code.slice();
-    if (buffer[0] === ev.keyCode) {
-      window.clearTimeout(latchId);
-      buffer.splice(0, 1);
-      if (buffer.length === 0) {
-        onKonami();
-      }
-      latchId = window.setTimeout(function () {
-        buffer = code.slice();
-      }, 500);
-    }
-  };
-  window.addEventListener("keyup", konami); 
-}());
+  
+logodetail.addEventListener('click', turnOffCrap);
 
 var letsplay = document.getElementsByClassName('letsplay')[0];
 letsplay.addEventListener('dblclick', beware);
@@ -1566,7 +1546,7 @@ wow.addEventListener('click', function(){console.log('Type "ling" while on the p
     document.body.style.background = null;
     var intro = document.createElement('p');
     intro.className = "fade";
-    intro.innerHTML = 'Turn off annoying sound and music - type "off" on document.body <br><br> Click on Bruno Mars text - reveals gif and music <br><br> Click on roll dice - reveals gif and music <br><br> Get calculator to display 369 - reveals video <br><br> Using the arrows on the computer type, up up down down left right left right b a - reveals video <br><br> Get calculator to display 5555 - reveals video <br><br> Get calculator to display 666 - displays random scary video <br><br> Double click S above A-Z - Play Shia game <br><br> Get calculator to display 1199 for an awesome video <br><br> Get the calculator to display 543645 - Ultimate Secret';
+    intro.innerHTML = 'Turn off annoying sound and music - click moving tongue <br><br> Click on Bruno Mars text - reveals gif and music <br><br> Click on roll dice - reveals gif and music <br><br> Get calculator to display 369 - reveals video <br><br> Using the arrows on the computer type, up up down down left right left right b a - reveals video <br><br> Get calculator to display 5555 - reveals video <br><br> Get calculator to display 666 - displays random scary video <br><br> Double click S above A-Z - Play Shia game <br><br> Get calculator to display 1199 for an awesome video <br><br> Get the calculator to display 543645 - Ultimate Secret';
     document.body.appendChild(intro);
   };
 
