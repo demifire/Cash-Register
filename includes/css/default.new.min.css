@@ -1,8 +1,8 @@
-@font-face{font-family:badaboom;src:url(fonts/Badaboom.ttf) format("truetype")}
-@font-face{font-family:kabel;src:url(fonts/Kabel.ttf) format("truetype")}
-@font-face{font-family:komika;src:url(fonts/komika.ttf) format("truetype")}
-@font-face{font-family:crystal;src:url(fonts/liquid-crystal.ttf) format("truetype")}
-@font-face{font-family:transport;src:url(fonts/transport.ttf) format("truetype")}
+@font-face{font-family:badaboom;src:url(includes/css/fonts/Badaboom.ttf) format("truetype")}
+@font-face{font-family:kabel;src:url(includes/css/fonts/Kabel.ttf) format("truetype")}
+@font-face{font-family:komika;src:url(includes/css/fonts/komika.ttf) format("truetype")}
+@font-face{font-family:crystal;src:url(includes/css/fonts/liquid-crystal.ttf) format("truetype")}
+@font-face{font-family:transport;src:url(includes/css/fonts/transport.ttf) format("truetype")}
 
 .bg-black{background:#6d6b6e;background:linear-gradient(to bottom, #333 40%, #717171 100%)}
 .bg-blue{background:#91ffef;background:linear-gradient(to bottom, #00a9e0 10%, #7bddfd 90%)}
