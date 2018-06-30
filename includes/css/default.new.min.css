@@ -278,19 +278,6 @@ body{font-family:'Lucida Grande',Lucida,Verdana,sans-serif;font-style:normal;col
       animation: sprite .8s steps(5) infinite;
       z-index: 100;
     }
-
-  #spriteContainer2 {
-      position: relative;
-      left: 5%;
-      width: 610px;
-      height: 575px;
-      border-radius: 15px;
-      background-image: url("https://images.lingscars.com/images/index/noddy-background.png");
-      background-size: 3100px 523.33px;
-      animation: sprite .8s steps(5) infinite;
-      z-index: 100;
-      display: none;
-    }
  
     @keyframes sprite {
     0% {
@@ -681,7 +668,7 @@ body{font-family:'Lucida Grande',Lucida,Verdana,sans-serif;font-style:normal;col
 }
 
 .fade {
-  margin-top: 50px;
+  margin-top: 5%;
   font-size: 21px;
   text-align: center;
   background-color: white;
@@ -722,20 +709,16 @@ body{font-family:'Lucida Grande',Lucida,Verdana,sans-serif;font-style:normal;col
 }
 
 .alignButton {
-  position: relative;
-  top: 350px;
-  left: 37%;
-  text-align: center;
-  display: inline !Important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative;
+  top: 50%;
+  /* left: %; */
+  /* text-align: center;
+  display: inline !Important; */ 
 }
 
-/* This means that styling will kick in at 414px and below */
-@media only screen and (max-width:414px){
-  li{
-      background: yellow;
-  }
-}
-/* This means that the styling will kick in at 500px and above */
 @media only screen and (max-width: 700px){
   li {
       background: rgb(189, 63, 189);
@@ -748,7 +731,6 @@ body{font-family:'Lucida Grande',Lucida,Verdana,sans-serif;font-style:normal;col
   #header-banner {display: none;}
   .chat-speech {display: none;}
   .dice {background-color: white;}
-  /* #spriteContainer2 {display: block;} */
 }
 
 @media only screen and (min-width: 1390px){
