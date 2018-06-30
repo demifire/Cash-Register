@@ -737,6 +737,7 @@ function load666(){
   function change666(url) {
     video.innerHTML = url;
   }
+  outside.style.display = "none";
     var random666 = arr666[Math.floor(Math.random()*arr666.length)]
     document.body.innerHTML = null;
     var videoWrap = document.createElement('div');
@@ -750,6 +751,7 @@ function load666(){
 };
 
 function theBest(){
+  outside.style.display = "none";
   var sound = new Audio('audio/bob.mp3');
   newDiv.innerHTML = null;
   document.body.innerHTML = null;
@@ -765,6 +767,7 @@ function theBest(){
         code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
   
     onKonami = function () {
+         outside.style.display = "none";
         document.body.innerHTML = null;
         var videoWrap = document.createElement('div');
         videoWrap.className = 'videoWrapper';
@@ -795,6 +798,7 @@ function theBest(){
   }());
 
 function launchZelda() {
+       outside.style.display = "none"; 
         var sound = new Audio('audio/zelda.mp3');
         document.body.innerHTML = null;
         var videoWrap = document.createElement('div');
@@ -811,6 +815,7 @@ function launchZelda() {
     };
 
 function launchSmash() {
+        outside.style.display = "none";
         document.body.innerHTML = null;
         var videoWrap = document.createElement('div');
         videoWrap.className = 'videoWrapper';
@@ -827,6 +832,7 @@ function launchSmash() {
 
 function launchLing() {
         document.body.innerHTML = null;
+        outside.style.display = "none";
         var videoWrap = document.createElement('div');
         videoWrap.className = 'videoWrapper';
         var video = document.createElement('div');
@@ -851,6 +857,7 @@ linglul.src = 'https://images.lingscars.com/images/index/ling-mad-head.png';
 rollEm.appendChild(linglul);
 
 function changeGif2() {
+        outside.style.display = "none";
         var sound = new Audio('audio/rr.mp3');
         document.body.innerHTML = null;
         var videoWrap = document.createElement('div');
@@ -896,6 +903,7 @@ var bmar = document.getElementById('bmar');
 bmar.addEventListener('click', boopeep)
 
 function boopeep(){
+  outside.style.display = "none";
   var sound = new Audio('audio/Bruno.mp3');
   document.body.innerHTML = null;
   var videoWrap = document.createElement('div');
@@ -1536,6 +1544,7 @@ var wow = document.getElementsByClassName('clickedYO')[0];
 wow.addEventListener('click', function(){console.log('Get the calculator to equal 1199 for an AWESOME vid XD')});
 
 function theLostWoods() {
+    outside.style.display = "none";
     newDiv.innerHTML = null;
     document.body.innerHTML = null;
     document.body.style.background = null;
