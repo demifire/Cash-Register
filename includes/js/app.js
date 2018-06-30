@@ -758,6 +758,7 @@ function theBest(){
   document.body.style.background = null;
   sound.play();
   document.body.style.background = 'url(important/bob.jpg) no-repeat center center fixed';
+  document.body.style.backgroundSize = 'contain';
 };
 
 (function () {
