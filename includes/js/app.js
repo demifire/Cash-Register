@@ -1555,8 +1555,6 @@ function theLostWoods() {
     document.body.appendChild(intro);
   };
 
-console.log('Latest Version1');
-
 function removeVids() {
   if (maxwidth.matches) { // If media query matches
 
